@@ -2,6 +2,9 @@ var express = require("express"),
 	app = express(),
 	bodyParser = require("body-parser");
 
+// Require routes
+var homePageRoutes = require("./routes/homePage");
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 
