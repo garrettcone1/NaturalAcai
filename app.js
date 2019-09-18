@@ -8,6 +8,9 @@ var homePageRoutes = require("./routes/homePage");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 
+// Connect public directory to get stylesheets
+app.use(express.static(__dirname + "/public"));
+
 // Use Routes
 app.use(homePageRoutes);
 

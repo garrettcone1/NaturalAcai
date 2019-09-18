@@ -1,0 +1,11 @@
+.ui.menu {
+	font-size: 1.1rem;
+}
+
+.ui.menu .header.item {
+	font-size: 22px;
+}
+
+.image img {
+	background-size: cover;
+}
