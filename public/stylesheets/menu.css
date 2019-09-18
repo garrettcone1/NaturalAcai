@@ -11,8 +11,25 @@
 	top: 0px;
 	left: 0px;
 	display: flex;
-    height: 800px;
+    height: 700px;
 	background-size: cover;
-	/* background-image: url(""); */
-	background-image: url("https://images.unsplash.com/photo-1494597564530-871f2b93ac55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	background-image: url("https://images.unsplash.com/photo-1546913657-cf36cdf42ee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
 }
+
+.centered-left {
+	color: white;
+	font-size: 75px;
+	font-weight: 500;
+	font-family: "Oswald", sans-serif;
+	position: absolute;
+	top: 35%;
+	transform: translate(50%, -50%);
+}
+
+.ui.right.floated.inverted.icon.button {
+	margin-right: 50px;
+	box-shadow: 0 0 0 0px #fff inset!important;
+	-webkit-box-shadow: 0 0 0 0px #fff inset!important;
+}
+
+
