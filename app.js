@@ -3,7 +3,7 @@ var express = require("express"),
 	bodyParser = require("body-parser");
 
 // Require routes
-var homePageRoutes = require("./routes/homePage");
+var homePageRoutes = require("./routes/index");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
