@@ -35,7 +35,7 @@
 
 .pick {
 	color: #446846;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 500;
 	font-family: "Oswald", sans-serif;
 	text-align: center;
@@ -51,5 +51,30 @@
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 0px 80px 80px 80px;
+	margin: 0px 80px 60px 80px;
+}
+
+.smoothie {
+	display: inline;
+	color: #561A7B;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: "Oswald", sans-serif;
+	margin: 0px 200px 50px 195px;
+}
+.bowl {
+	display: inline;
+	color: #561A7B;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: "Oswald", sans-serif;
+	margin: 0px 200px 50px 230px;
+}
+.toast {
+	display: inline;
+	color: #561A7B;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: "Oswald", sans-serif;
+	margin: 0px 200px 50px 265px;
 }
