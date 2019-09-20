@@ -16,7 +16,7 @@
 	background-image: url("https://images.unsplash.com/photo-1546913657-cf36cdf42ee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
 }
 
-.centered-left {
+.centered-header {
 	color: white;
 	font-size: 75px;
 	font-weight: 500;
@@ -43,7 +43,13 @@
 	padding-top: 80px;
 }
 
-.ui.image img{
-	padding-left: 100px;
+.ui.circular.image {
+	position: relative;
+	float: left;
+	width: 400px;
+	height: 400px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px 80px 80px 80px;
 }
-
