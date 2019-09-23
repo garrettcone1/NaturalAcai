@@ -5,10 +5,25 @@
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 		<link rel="stylesheet" href="/stylesheets/menu.css">
 		<link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600&display=swap" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 	</head>
 	<body>
 		
-		<!-- Menu Bar -->
+		<!-- Right hand sidebar -->
+		<div class="ui sidebar vertical right inverted menu">
+			<a href="#" class="item">
+				<i class="instagram icon"></i>
+			</a>
+			<a href="#" class="item">
+				<i class="instagram icon"></i>
+			</a>
+			<a href="#" class="item">
+				<i class="instagram icon"></i>
+			</a>
+		</div>
+
+		<!-- Navbar -->
 		<div class="ui fixed inverted menu">
 			<div class="ui container">
 				<a class="header item" href="/" >
@@ -23,15 +38,8 @@
 				<div class="ui simple dropdown item">
 					Ingredients <i class="caret down icon"></i>
 				</div>
-			</div>
-			<!-- Right hand sidebar -->
-				<button class="ui right floated huge inverted icon button">
+				<a id="toggle" class="item">
 					<i class="bars icon"></i>
-					<div class="ui right demo vertical inverted sidebar labeled icon menu">
-						<a class="item">
-							<i class="instagram icon"></i>
-						</a>
-					</div>
-				</button>
-			
+				</a>
+			</div>
 		</div>

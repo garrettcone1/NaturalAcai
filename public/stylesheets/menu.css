@@ -23,6 +23,7 @@
 	font-family: "Oswald", sans-serif;
 	position: absolute;
 	top: 35%;
+	text-transform: uppercase;
 	transform: translate(50%, -50%);
 }
 
