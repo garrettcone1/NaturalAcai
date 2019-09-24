@@ -24,7 +24,7 @@
 	position: absolute;
 	top: 35%;
 	text-transform: uppercase;
-	transform: translate(50%, -50%);
+	transform: translate(50%, -300%);
 }
 
 
@@ -78,4 +78,10 @@
 	font-weight: 400;
 	font-family: "Oswald", sans-serif;
 	margin: 0px 200px 50px 265px;
+}
+
+.ui.visible.right.overlay.sidebar {
+	color: white;
+	width: 350px;
+	background-color: #CED8B5;
 }

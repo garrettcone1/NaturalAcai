@@ -1,4 +1,9 @@
 		<script>
+			// Format the sidebar to overlay the page content
+			$('.ui.sidebar').sidebar({
+				transition: 'overlay'
+			});
+			
 			// Toggle the sidebar 			
 			$('#toggle').click(function(){
 				$('.ui.sidebar').sidebar('toggle');
