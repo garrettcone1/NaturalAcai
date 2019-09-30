@@ -23,13 +23,13 @@
 	position: relative;
 	margin-top: 50px;
 	bottom: 0;
-	height: 450px;
+	height: 475px;
 	z-index: -10;
 }
 
 .dark-overlay {
 	position: absolute;
-	background-color: rgba(0,0,0, 0.8);
+	background-color: rgba(0,0,0, 0.85);
 	bottom: 0;
 	height: 100%;
 	width: 100%;
@@ -42,6 +42,29 @@
 	text-align: center;
 }
 
+.ui.grid>.row>.column {
+	height: 375px;
+}
+
+.ui.three.column.row {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 19px;
+	font-weight: 300;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+
+.green-ln {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid #B3BF97;
+}
+
 h3 {
 	text-transform: uppercase;
 	font-size: 25px;
@@ -52,6 +75,27 @@ h3 {
 .ui.divider {
 	width: 250px;
 	margin: auto;
+}
+
+.ui.grid.container {
+	margin-top: 10px;
+}
+
+.ui.image img, .ui.image svg {
+	height: 115px;
+}
+
+.ui.image img:hover {
+	opacity: 0.4;
+	filter: alpha(opacity=30);
+}
+
+.ui.image p {
+	color: white;
+}
+
+.ui.image p:hover {
+	color: #B3BF97;
 }
 
 .sidebar-container {
