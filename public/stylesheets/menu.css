@@ -6,6 +6,34 @@
 	font-size: 22px;
 }
 
+#jumbotron {
+	height: 800px;
+	width: 100%;
+	margin-top: 74px;
+	overflow: hidden;
+	background-size: cover;
+	position: relative;
+	background-image: url("https://images.unsplash.com/photo-1546913657-cf36cdf42ee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+#triangle-topleft {
+	width: 75%;
+	height: 800px;
+	border-top: 800px solid #B3BF97;
+	border-right: 1000px solid transparent;
+}
+
+.centered-header {
+	color: white;
+	font-size: 50px;
+	font-weight: 500;
+	font-family: "Oswald", sans-serif;
+	position: absolute;
+	top: 35%;
+	text-transform: uppercase;
+	transform: translate(40%, -100%);
+}
+
 .header-image {
 	margin-top: 74px;
 	top: 0px;
@@ -123,17 +151,6 @@ h5 {
 .sidebar-container {
 	text-align: center;
 	margin: 50px;
-}
-
-.centered-header {
-	color: white;
-	font-size: 75px;
-	font-weight: 500;
-	font-family: "Oswald", sans-serif;
-	position: absolute;
-	top: 35%;
-	text-transform: uppercase;
-	transform: translate(50%, -300%);
 }
 
 .pick {
