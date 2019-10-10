@@ -6,6 +6,7 @@
 	font-size: 22px;
 }
 
+/* HEADER BACKGROUND */
 #jumbotron {
 	height: 800px;
 	width: 100%;
@@ -23,28 +24,35 @@
 	border-right: 1000px solid transparent;
 }
 
+/* HEADER CONTENT */
 .centered-header {
-	color: white;
-	font-size: 50px;
-	font-weight: 500;
-	font-family: "Oswald", sans-serif;
 	position: absolute;
 	top: 35%;
+	transform: translate(15%, -50%);
+}
+
+.centered-header #header-mantra {
+	color: white;
+	margin-bottom: -5px;
+	font-size: 60px;
+	font-weight: 500;
+	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
-	transform: translate(40%, -100%);
 }
 
-.header-image {
-	margin-top: 74px;
-	top: 0px;
-	left: 0px;
-	display: flex;
-    height: 775px;
-	background-size: cover;
-	background-image: url("https://images.unsplash.com/photo-1546913657-cf36cdf42ee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+.centered-header #header-text {
+	color: white;
+	font-size: 28px;
+	font-weight: 400;
 }
 
-.footer-image {
+/****** 
+@media screen and (max-width: ***px) {
+	
+}
+******/
+
+/* .footer-image {
 	background-image: url("https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 	background-size: cover;
 	background-position: 50% 75%;
@@ -53,28 +61,28 @@
 	bottom: 0;
 	height: 475px;
 	z-index: -10;
-}
+} */
 
-.dark-overlay {
+/* .dark-overlay {
 	position: absolute;
 	background-color: rgba(0,0,0, 0.85);
 	bottom: 0;
 	height: 100%;
 	width: 100%;
 	z-index: -5;
-}
+} */
 
-.ui.grid .row {
+/* .ui.grid .row {
 	color: white;
 	margin: 50px;
 	text-align: center;
-}
+} */
 
-.ui.grid>.row>.column {
+/* .ui.grid>.row>.column {
 	height: 375px;
-}
+} */
 
-.ui.three.column.row {
+/* .ui.three.column.row {
 	display: inline-block;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -82,121 +90,75 @@
 	font-weight: 300;
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
-}
+} */
 
-.sixteen.wide.column {
+/* .sixteen.wide.column {
 	font-size: 19px;
 	font-weight: 300;
 	font-family: "Oswald", sans-serif;
-}
+} */
 
-.green-ln {
+/* .green-ln {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
 	border-bottom: 2px solid #B3BF97;
-}
+} */
 
-a.company-info {
+/* a.company-info {
 	color: white;
-}
+} */
 
-a.company-info:hover {
+/* a.company-info:hover {
 	color: #B3BF97;
-}
+} */
 
-h3 {
+/* h3 {
 	text-transform: uppercase;
 	font-size: 25px;
 	font-weight: 500;
 	font-family: "Oswald", sans-serif;
-}
+} */
 
-h5 {
+/* h5 {
 	text-transform: uppercase;
 	color: #B3BF97;
 	font-size: 20px;
 	font-weight: 500;
 	font-family: "Oswald", sans-serif;
-}
+} */
 
-.ui.divider {
+/* .ui.divider {
 	width: 250px;
 	margin: auto;
-}
+} */
 
-.ui.grid.container {
+/* .ui.grid.container {
 	margin-top: 10px;
-}
+} */
 
-.ui.image img, .ui.image svg {
+/* .ui.image img, .ui.image svg {
 	height: 115px;
-}
+} */
 
-.ui.image img:hover {
+/* .ui.image img:hover {
 	opacity: 0.4;
 	filter: alpha(opacity=30);
-}
+} */
 
-.ui.image p {
+/* .ui.image p {
 	color: white;
-}
+} */
 
-.ui.image p:hover {
+/* .ui.image p:hover {
 	color: #B3BF97;
-}
+}   */
 
 .sidebar-container {
 	text-align: center;
 	margin: 50px;
-}
-
-.pick {
-	color: #446846;
-	font-size: 50px;
-	font-weight: 500;
-	font-family: "Oswald", sans-serif;
-	text-align: center;
-	margin-bottom: 100px;
-	padding-top: 80px;
-}
-
-.ui.circular.image {
-	position: relative;
-	float: left;
-	width: 400px;
-	height: 400px;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 0px 80px 60px 80px;
-}
-
-.smoothie {
-	display: inline;
-	color: #561A7B;
-	font-size: 40px;
-	font-weight: 400;
-	font-family: "Oswald", sans-serif;
-	margin: 0px 200px 50px 195px;
-}
-.bowl {
-	display: inline;
-	color: #561A7B;
-	font-size: 40px;
-	font-weight: 400;
-	font-family: "Oswald", sans-serif;
-	margin: 0px 200px 50px 230px;
-}
-.toast {
-	display: inline;
-	color: #561A7B;
-	font-size: 40px;
-	font-weight: 400;
-	font-family: "Oswald", sans-serif;
-	margin: 0px 200px 50px 265px;
 }
 
 .ui.visible.right.overlay.sidebar {
