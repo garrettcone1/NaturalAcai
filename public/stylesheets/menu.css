@@ -1,7 +1,6 @@
 .ui.menu {
 	font-size: 1.1rem;
 }
-
 .ui.menu .header.item {
 	font-size: 22px;
 }
@@ -39,13 +38,14 @@
 }
 .centered-header #header-text {
 	color: white;
-	font-size: 28px;
+	font-size: 25px;
 	font-weight: 400;
 }
 
 /* "CREATE" VIEW */
 .ui.grid>.row:first-of-type>.column:first-of-type {
 	height: 350px;
+	padding: 30px;
 	background-size: cover;
 	position: relative;
 	background-image: url("https://images.unsplash.com/photo-1533899114961-3aa0579cd5b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
@@ -58,12 +58,33 @@
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 }
+.ui.grid>.row:first-of-type>.column:first-of-type> a {
+	color: white;
+	font-size: 23px;
+	padding: 0px 20px 0px 0px;
+}
 #create-text {
 	color: white;
 	font-size: 20px;
 	font-weight: 400;
 }
-.ui.grid>.row:first-of-type>.column:nth-child(2) {
+#menu-link {
+	font-weight: 400;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+#menu-link:hover {
+	color: #B3BF97;
+}
+#ingredients-link {
+	font-weight: 400;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+#ingredients-link:hover {
+	color: #B3BF97;
+}
+.ui.grid>.row:first-of-type>.column:nth-of-type(2) {
 	height: 325px;
 	margin-top: 12.5px;
 }
@@ -120,6 +141,22 @@
 .no-cssanimations .slideshow li {
 	opacity: 1;
 }
+
+/* "ADMIRE" VIEW */
+/* .ui.grid>.row:nth-of-type(2)>.column:first-of-type {
+	height: 250px;
+	
+} */
+/* #admire-image {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  	background-size: cover;
+  	background-position: 50% 50%;
+ 	background-repeat: no-repeat;
+ 	opacity: 0;
+	background-image: url("https://images.unsplash.com/photo-1550335430-182e6165c01c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+} */
 
 /* .footer-image {
 	background-image: url("https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
@@ -235,7 +272,3 @@
 	width: 350px;
 	background-color: #B3BF97;
 }
-
-
-
-
