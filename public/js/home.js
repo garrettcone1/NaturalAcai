@@ -15,7 +15,7 @@ const navSlider = () => {
 			}
 		});
 		// Mobile Menu Animation
-		mobileMenu.classList.toggle("toggle")
+		mobileMenu.classList.toggle("toggle");
 	});
 }
 

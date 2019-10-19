@@ -315,18 +315,18 @@ nav {
 	.nav-links {
 		position: absolute;
 		font-size: 25px;
-		right: 0px;
+		right: -15px;
 		height: 85vh;
 		top: 8vh;
 		color: rgb(226, 226, 226);
 		background-color: black;
-		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: end;
 		width: 50%;
 		transition: transform 0.5s ease-in;
-		/* transform: translateX(100%); */
-		/* z-index: 20; */
+		transform: translateX(100%);
+		/* display: none; */
+		visibility: hidden;
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
@@ -343,8 +343,10 @@ nav {
 }
 .nav-active {
 	transform: translateX(0%);
+	/* display: flex; */
+	visibility: visible;
 	z-index: 20;
-	margin-top: 0px;
+	margin-top: -1px;
 	margin-bottom: 0px;
 }
 
