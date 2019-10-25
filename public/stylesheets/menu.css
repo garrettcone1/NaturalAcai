@@ -44,11 +44,13 @@
 	color: white;
 	font-size: 22px;
 	font-weight: 400;
+	border-radius: 15px;
 	background-color: #B3BF97;
 }
 #hidden-header-text {
 	text-align: center;
 }
+
 /* 
 #content-title {
 	color: #8E7629;
@@ -357,6 +359,7 @@ nav {
 	.mobile-menu {
 		display: block;
 	}
+	
 }
 .nav-active {
 	transform: translateX(0%);
