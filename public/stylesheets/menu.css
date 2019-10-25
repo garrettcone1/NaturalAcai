@@ -1,7 +1,7 @@
 /* HEADER BACKGROUND */
 #jumbotron {
 	height: 100vh;
-	width: 104%;
+	width: 104vw;
 	background-size: cover;
 	position: relative;
 	background-image: url("https://images.unsplash.com/photo-1546913657-cf36cdf42ee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
@@ -49,9 +49,9 @@
 #hidden-header-text {
 	text-align: center;
 }
-
+/* 
 #content-title {
-	/* color: #8E7629; */
+	color: #8E7629;
 	color: darkgray;
 	margin-bottom: 10px;
 	font-size: 30px;
@@ -61,7 +61,7 @@
 #tan-ln {
 	border: 1.5px solid #8E7629;
 	width: 50vw;
-}
+} */
 
 /* "CREATE" VIEW */
 .ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:first-of-type {
@@ -69,7 +69,6 @@
 	padding: 30px;
 	background-size: cover;
 	position: relative;
-	/* background-image: url("https://images.unsplash.com/photo-1533899114961-3aa0579cd5b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); */
 }
 #create {
 	color: #a31407;
@@ -127,6 +126,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: 15px;	
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -169,6 +169,7 @@
 .ui.grid>.ui.stackable.three.column.centered.row:nth-of-type(2)>.column:first-of-type {
 	margin-top: 25px;
 	height: 400px;
+	border-radius: 15px;
   	background-size: cover;
   	background-position: 50% 50%;
  	background-repeat: no-repeat;
@@ -179,7 +180,6 @@
 	padding: 30px;
 	background-size: cover;
 	position: relative;
-	/* background-image: url("https://images.unsplash.com/photo-1545100760-db63cbae42b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); */
 }
 #admire {
 	color: #083b6e;
@@ -202,7 +202,6 @@
 	padding: 30px;
 	background-size: cover;
 	position: relative;
-	/* background-image: url("https://images.unsplash.com/photo-1548449807-8321fbace1b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); */
 }
 #enjoy {
 	color: #c28b0c;
@@ -221,6 +220,7 @@
 .ui.grid>.ui.stackable.three.column.centered.row:nth-of-type(3)>.column:nth-of-type(2) {
 	margin-top: 12.5px;
 	height: 400px;
+	border-radius: 15px;
   	background-size: cover;
   	background-position: 50% 50%;
  	background-repeat: no-repeat;
@@ -330,9 +330,6 @@ nav {
 	}
 }
 @media screen and (max-width: 768px) {
-	/* body {
-		overflow-x: hidden;
-	} */
 	.nav-links {
 		position: absolute;
 		font-size: 25px;
