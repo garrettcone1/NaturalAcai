@@ -75,7 +75,6 @@ html, body {
 /* "CREATE" VIEW */
 .ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:first-of-type {
 	height: 450px;
-	/* width: 95vw; */
 	padding: 30px;
 	background-size: cover;
 	position: relative;
