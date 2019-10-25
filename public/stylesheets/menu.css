@@ -1,7 +1,14 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 /* HEADER BACKGROUND */
 #jumbotron {
 	height: 100vh;
-	width: 104vw;
 	background-size: cover;
 	position: relative;
 	background-image: url("https://images.unsplash.com/photo-1546913657-cf36cdf42ee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
@@ -42,7 +49,7 @@
 }
 .ui.grid>.twelve.wide.column {
 	color: white;
-	font-size: 22px;
+	font-size: 15px;
 	font-weight: 400;
 	border-radius: 15px;
 	background-color: #B3BF97;
@@ -68,6 +75,7 @@
 /* "CREATE" VIEW */
 .ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:first-of-type {
 	height: 450px;
+	/* width: 95vw; */
 	padding: 30px;
 	background-size: cover;
 	position: relative;
@@ -87,27 +95,26 @@
 	padding: 0px 20px 0px 0px;
 }
 #create-text {
-	/* color: white; */
 	font-size: 20px;
 	font-weight: 400;
 }
-#menu-link {
-	
+.create-links {
+	font-size: 22px;
 	font-weight: 400;
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 }
-#menu-link:hover {
+#menu-link, #ingredients-link {
+	color: black;
+}
+#menu-link:hover, #ingredients-link:hover {
 	color: #a31407;
 }
-#ingredients-link {
+/* #ingredients-link {
 	font-weight: 400;
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
-}
-#ingredients-link:hover {
-	color: #a31407;
-}
+} */
 .ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:nth-of-type(2) {
 	height: 400px;
 	margin-top: 25px;
@@ -268,7 +275,9 @@ h3 {
 
 /* NAVBAR AND SIDEBAR STYLES */
 nav {
-	width: 104%;
+	position: fixed;
+  	top: 0;
+	width: 100%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	display: flex;
@@ -331,11 +340,28 @@ nav {
 		width: 60%;
 	}
 }
+@media screen and (max-width: 795px) {
+	#create {
+		text-align: center;
+	}
+	#create-text {
+		text-align: center;
+		margin: 0px 30px 0px 30px;
+	}
+	.create-links {
+		text-align-last: center;
+		padding-top: 45px;
+	}
+	.slideshow li {
+		margin: 0px 25px 0px 25px;
+	}
+}
 @media screen and (max-width: 768px) {
 	.nav-links {
 		position: absolute;
 		font-size: 25px;
-		right: -15px;
+		top: 0;
+		right: -1px;
 		height: 85vh;
 		top: 8vh;
 		color: rgb(226, 226, 226);
@@ -359,7 +385,6 @@ nav {
 	.mobile-menu {
 		display: block;
 	}
-	
 }
 .nav-active {
 	transform: translateX(0%);
