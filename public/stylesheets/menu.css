@@ -335,6 +335,10 @@ nav {
 	}
 }
 @media screen and (max-width: 795px) {
+	#jumbotron {
+		background-position: 50% 50%;
+	}
+	
 	.ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:first-of-type {
 		height: 350px;
 	}
@@ -349,9 +353,6 @@ nav {
 		text-align: center;
 		padding-top: 45px;
 	}
-	/* .create-image {
-		height: 300px;
-	} */
 	.slideshow li {
 		height: 300px;
 		margin-left: 25px;
