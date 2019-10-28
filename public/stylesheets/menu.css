@@ -250,23 +250,24 @@ html, body {
 	z-index: -5;
 }
 #copy-right {
-	padding-top: 30px;
+	padding-top: 175px;
 	color: white;
 	height: 20px;
 	text-align: center;
 	font-size: 18px;
 }
 #footer-logo {
-	padding-top: 30px;
+	padding-top: 50px;
 	color: white;
 	text-align: center;
 	font-size: 30px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
 }
-.footer-icons {
-	padding-top: 30px;
-	text-align: center
+.ui.grid:nth-of-type(4)>.row>.column:nth-of-type(3) {
+	justify-content: space-evenly;
+	display: inline-flex;
+	margin-top: 175px;
 }
 .facebook.f.icon, .instagram.icon, .twitter.icon {
 	color: white;
