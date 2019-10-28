@@ -11,4 +11,9 @@ router.get("/about", function(req, res){
 	res.render("about");
 });
 
+// Menu Route
+router.get("/menu", function(req, res){
+	res.render("menu");	   
+});
+
 module.exports = router;
