@@ -232,13 +232,13 @@ html, body {
 
 /* FOOTER BACKGROUND */
 .ui.grid:nth-of-type(4) {
-	height: 475px;
+	height: 250px;
 	bottom: 0;
 	margin-top: 50px;
 	position: relative;
 	z-index: -10;
 	background-size: cover;
-	/* background-position: 50% 75%; */
+	background-position: 50% 75%;
 	background-image: url("https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 }
 .dark-overlay {
@@ -249,22 +249,28 @@ html, body {
 	width: 100%;
 	z-index: -5;
 }
-h3 {
+#copy-right {
+	padding-top: 30px;
 	color: white;
+	height: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+#footer-logo {
+	padding-top: 30px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 5px;
 	text-transform: uppercase;
-	font-size: 25px;
-	font-weight: 500;
-	font-family: "Oswald", sans-serif;
 }
-.ui.grid:nth-of-type(4)>.ui.stackable.five.column.centered.row>.column:first-of-type>.column> p {
+.footer-icons {
+	padding-top: 30px;
+	text-align: center
+}
+.facebook.f.icon, .instagram.icon, .twitter.icon {
 	color: white;
-	margin-top: 15px;
-	font-size: 19px;
-	font-weight: 300;
-	font-family: "Oswald", sans-serif;
-}
-.green-ln {
-	border: 1.5px solid #B3BF97;
+	font-size: 1.5rem;
 }
 
 /* NAVBAR AND SIDEBAR STYLES */
@@ -332,6 +338,11 @@ nav {
 @media screen and (max-width: 1024px) {
 	.nav-links {
 		width: 60%;
+	}
+}
+@media screen and (max-width: 920px) {
+	.footer-icons {
+		display: flex;
 	}
 }
 @media screen and (max-width: 795px) {
