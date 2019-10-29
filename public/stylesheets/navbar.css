@@ -1,0 +1,122 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* NAVBAR AND SIDEBAR STYLES */
+nav {
+	position: fixed;
+  	top: 0;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: black;
+	z-index: 20;
+}
+.logo {
+	color: rgb(226, 226, 226);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 50px;
+}
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}
+.nav-links li {
+	list-style: none;
+}
+.nav-links a {
+	color: rgb(226, 226, 226);
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 14px;
+	z-index: 20;
+}
+.nav-links a:hover {
+	color: #B3BF97;
+}
+.mobile-menu {
+	display: none;
+	cursor: pointer;
+}
+.mobile-menu div {
+	width: 25px;
+	height: 3px;
+	background-color: rgb(226, 226, 226);
+	margin: 5px;
+	transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+	.nav-links {
+		width: 60%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.nav-links {
+		position: absolute;
+		font-size: 25px;
+		top: 0;
+		right: -1px;
+		height: 75vh;
+		top: 8vh;
+		color: rgb(226, 226, 226);
+		background-color: black;
+		flex-direction: column;
+		align-items: end;
+		width: 100%;
+		transition: transform 0.5s ease-in;
+		transform: translateX(100%);
+		display: none;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.nav-links li {
+		opacity: 0;
+		z-index: 20;
+	}
+	.nav-links a {
+		font-size: 18px;
+	}
+	.mobile-menu {
+		display: block;
+	}
+}
+.nav-active {
+	transform: translateX(0%);
+	display: flex;
+	left: 0;
+	z-index: 20;
+	margin-top: -1px;
+	margin-bottom: 0px;
+}
+
+@keyframes navLinkFade {
+	from {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+.toggle .line1 {
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+	opacity: 0;
+}
+.toggle .line3 {
+	transform: rotate(45deg) translate(-5px, -6px);
+}
