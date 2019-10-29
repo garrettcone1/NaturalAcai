@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 /* HEADER BACKGROUND */
@@ -282,7 +282,7 @@ html, body {
 		height: 300px;
 		border-top-left-radius: 0px;
 		border-bottom-left-radius: 0px;
-		margin-right: 10px;
+		margin-right: 25px;
 	}
 	
 	.ui.grid>.ui.stackable.three.column.centered.row:nth-of-type(3)>.column:first-of-type {
@@ -300,6 +300,6 @@ html, body {
 		height: 300px;
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 0px;
-		margin-left: 10px;
+		margin-left: 25px;
 	}
 }
