@@ -49,7 +49,7 @@ html, body {
 }
 .ui.grid>.twelve.wide.column {
 	color: white;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 400;
 	border-radius: 15px;
 	background-color: #B3BF97;
@@ -244,7 +244,17 @@ html, body {
 
 @media screen and (max-width: 795px) {
 	#jumbotron {
+		height: 90vh;
 		background-position: 50% 50%;
+	}
+	#triangle-topleft {
+		height: 90vh;
+		border-top: 90vh solid #B3BF97;
+		border-right: 80vw solid transparent;
+	}
+	.centered-header #header-mantra {
+		font-size: 50px;
+		margin-top: 25px;
 	}
 	.ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:first-of-type {
 		height: 350px;
