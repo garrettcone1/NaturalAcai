@@ -5,6 +5,19 @@ html, body {
     padding: 0px;
     overflow-x: hidden; 
 }
+.ui.grid>.sixteen.wide.column {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.headerImg {
+	margin-top: 8vh;
+	height: 250px;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	background-position: 50% 50%;
+	background-image: url("https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
 h1 {
 	color: white;
 	padding-top: 50px;
@@ -14,11 +27,13 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 }
-.ui.grid:first-of-type>.column {
+.ui.grid:first-of-type>.twelve.wide.column {
 	height: 80%;
-	margin-top: 8vh;
+	margin-top: 0px;
+	padding-top: 0px;
 	background-color: #B3BF97;
-	border-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 .timeline {
