@@ -20,18 +20,18 @@ html, body {
 }
 h1 {
 	color: white;
-	padding-top: 50px;
-	font-size: 35px;
+	padding-top: 150px;
+	padding-left: 12vw;
+	font-size: 50px;
 	letter-spacing: 2px;
 	font-family: "Oswald", sans-serif;
-	text-align: center;
 	text-transform: uppercase;
 }
 .ui.grid:first-of-type>.twelve.wide.column {
 	height: 80%;
 	margin-top: 0px;
 	padding-top: 0px;
-	background-color: #B3BF97;
+	background-color: #826d7b;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
@@ -64,7 +64,7 @@ h1 {
   width: 25px;
   height: 25px;
   right: -13px;
-  background-color: darkblue;
+  background-color: white;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -153,6 +153,17 @@ h1 {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-image: url("../images/acaiMenuFour.jpg");
+}
+@media screen and (max-width: 1160px) {
+	h1 {
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 768px) {
+	h1 {
+		padding-top: 100px;
+		width: 250px;
+	}
 }
 /* Responsive timeline */
 @media screen and (max-width: 600px) {
