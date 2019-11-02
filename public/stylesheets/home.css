@@ -109,7 +109,8 @@ html, body {
 #menu-link:hover, #ingredients-link:hover {
 	color: #a31407;
 }
-.ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:nth-of-type(2)>.create-image {
+
+.create-image {
 	height: 400px;
 	margin-top: 25px;
 }

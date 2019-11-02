@@ -27,7 +27,18 @@ h1 {
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 }
-.ui.grid:first-of-type>.twelve.wide.column {
+h2 {
+	color: white;
+	padding-top: 50px;
+	font-size: 35px;
+	letter-spacing: 2px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+.timeline-title {
+	text-align: center;
+}
+.ui.grid>.sixteen.wide.mobile.twelve.wide.computer.column {
 	height: 80%;
 	margin-top: 0px;
 	padding-top: 0px;
@@ -119,6 +130,7 @@ h1 {
 }
 .ui.grid>.twelve.wide.column>.ui.centered.grid>.row>.sixteen.wide.column {
 	margin-top: 30px;
+	margin-bottom: 30px;
 	height: 400px;
 }
 .menuOneImg {
@@ -159,10 +171,10 @@ h1 {
 		font-size: 40px;
 	}
 }
-@media screen and (max-width: 768px) {
-	h1 {
-		padding-top: 100px;
-		width: 250px;
+@media screen and (max-width: 991px) {
+	/* Change footer margin-top */	
+	.ui.sixteen.column.grid {
+		margin-top: 14px;
 	}
 }
 /* Responsive timeline */

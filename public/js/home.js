@@ -18,5 +18,4 @@ const navSlider = () => {
 		mobileMenu.classList.toggle("toggle");
 	});
 }
-
 navSlider();
