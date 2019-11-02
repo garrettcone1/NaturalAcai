@@ -27,3 +27,20 @@ h1 {
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 }
+h2 {
+	padding-top: 50px;
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+.aboutContent {
+	text-align: center;
+	padding-top: 25px;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+#aboutFrom {
+	text-align: center;
+}
