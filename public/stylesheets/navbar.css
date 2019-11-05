@@ -80,7 +80,6 @@ nav {
 		transition: transform 0.5s ease-in;
 		transform: translateX(100%);
 		display: none;
-		justify-content: space-evenly;
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
@@ -90,6 +89,7 @@ nav {
 	}
 	.nav-links a {
 		font-size: 18px;
+		margin: 15px;
 	}
 	.mobile-menu {
 		display: block;
@@ -98,6 +98,7 @@ nav {
 .nav-active {
 	transform: translateX(0%);
 	display: flex;
+	justify-content: center;
 	left: 0;
 	z-index: 20;
 	margin-top: -1px;
