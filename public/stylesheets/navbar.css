@@ -80,6 +80,7 @@ nav {
 		transition: transform 0.5s ease-in;
 		transform: translateX(100%);
 		display: none;
+		justify-content: space-evenly;
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
