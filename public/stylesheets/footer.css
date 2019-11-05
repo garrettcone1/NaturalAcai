@@ -13,7 +13,7 @@ html, body {
 	margin-top: 50px;
 	margin-bottom: 0px;
 	position: relative;
-	z-index: -10;
+	z-index: 0;
 	background-size: cover;
 	background-position: 50% 75%;
 	background-image: url("https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
