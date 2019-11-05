@@ -34,3 +34,8 @@ h1 {
 .header, .meta {
 	text-align: center;
 }
+@media screen and (max-width: 1160px) {
+	h1 {
+		font-size: 40px;
+	}
+}

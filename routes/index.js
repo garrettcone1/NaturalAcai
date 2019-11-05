@@ -21,4 +21,8 @@ router.get("/ingredients", function(req, res) {
 	res.render("ingredients");
 });
 
+// Locations Route
+router.get("/locations", function(req, res){
+	res.render("locations");
+});
 module.exports = router;
