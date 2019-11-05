@@ -16,4 +16,9 @@ router.get("/menu", function(req, res){
 	res.render("menu");	   
 });
 
+// Ingredients Route
+router.get("/ingredients", function(req, res) {
+	res.render("ingredients");
+});
+
 module.exports = router;
