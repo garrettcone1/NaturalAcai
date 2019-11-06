@@ -53,7 +53,7 @@ h2 {
   margin: 0 auto;
   margin-top: 50px;
 }
-.timeline::after {
+/* .timeline::after {
   content: '';
   position: absolute;
   width: 6px;
@@ -62,14 +62,14 @@ h2 {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
-}
+} */
 .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
-.container::after {
+/* .container::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -79,7 +79,7 @@ h2 {
   top: 15px;
   border-radius: 50%;
   z-index: 1;
-}
+} */
 .left {
   left: 0;
 }
@@ -90,7 +90,7 @@ h2 {
 }
 
 /* Add arrows to the left container (pointing right) */
-.left::before {
+/* .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -101,10 +101,10 @@ h2 {
   border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
-}
+} */
 
 /* Add arrows to the right container (pointing left) */
-.right::before {
+/* .right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -115,12 +115,12 @@ h2 {
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
-}
+} */
 
 /* Fix the circle for containers on the right side */
-.right::after {
+/* .right::after {
   left: -12px;
-}
+} */
 
 .content {
   padding: 20px 30px;
@@ -196,17 +196,17 @@ h2 {
   }
 
 /* Make sure that all arrows are pointing leftwards */
-  .container::before {
+  /* .container::before {
     left: 55px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
-  }
+  } */
 
 /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
+  /* .left::after, .right::after {
     left: 15px;
-  }
+  } */
 
 /* Make all right containers behave like the left ones */
   .right {
