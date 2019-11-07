@@ -13,7 +13,6 @@ html, body {
 	position: relative;
 	background-image: url("https://images.unsplash.com/photo-1546913657-cf36cdf42ee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 	background-color: #C8BD90;
-	background-attachment: fixed;
 }
 #triangle-topleft {
 	width: 75vw;
@@ -313,5 +312,10 @@ html, body {
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 0px;
 		margin-left: 25px;
+	}
+}
+@media screen and (min-width: 768px) {
+	#jumbotron {
+		background-attachment: fixed;
 	}
 }

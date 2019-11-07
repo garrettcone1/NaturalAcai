@@ -16,7 +16,6 @@ html, body {
 	background-size: cover;
 	position: relative;
 	background-position: center bottom;
-	background-attachment: fixed;
 	background-image: url("https://images.unsplash.com/photo-1572164701503-78c6d4446873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 }
 h1 {
@@ -53,5 +52,10 @@ h2 {
 @media screen and (max-width: 768px) {
 	.headerImg {
 		background-position: right bottom;
+	}
+}
+@media screen and (min-width: 768px) {
+	.headerImg {
+		background-attachment: fixed;
 	}
 }
