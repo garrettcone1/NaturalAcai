@@ -29,106 +29,57 @@ h1 {
 	text-transform: uppercase;
 }
 h2 {
-	color: white;
+	color: black;
 	padding-top: 50px;
 	font-size: 35px;
+	text-align: center;
 	letter-spacing: 2px;
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 }
-.timeline-title {
-	text-align: center;
+
+/* First Step */
+.ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:first-of-type {
+	height: 300px;
+	padding: 30px;
 }
-.ui.grid>.sixteen.wide.column:nth-of-type(2) {
-	height: 80%;
-	margin-top: 0px;
-	padding-top: 0px;
-	background-color: #826d7b;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+.stepOneImg, .stepTwoImg, .stepThreeImg, .stepFourImg {
+	margin-top: 25px;
+	height: 300px;
+	border-radius: 15px;
+  	background-size: cover;
+  	background-position: 50% 50%;
+ 	background-repeat: no-repeat;
+}
+.stepOneImg {
+	background-image: url("https://images.unsplash.com/photo-1457347876270-97799484c564?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+.stepOneImg {
+	background-image: url("");
+}
+.stepOneImg {
+	background-image: url("");
+}
+.stepOneImg {
+	background-image: url("");
 }
 
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 50px;
+#stepOne, #stepTwo, #stepThree, #stepFour {
+	margin-top: 125px;
+	text-align: left;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
 }
-/* .timeline::after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  background-color: white;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-} */
-.container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
-/* .container::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -13px;
-  background-color: white;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-} */
-.left {
-  left: 0;
+#stepOneText, #stepTwoText, #stepThreeText, #tepFourText {
+	font-size: 20px;
+	font-weight: 500;
 }
 
-/* Place the container to the right */
-.right {
-  left: 50%;
-}
 
-/* Add arrows to the left container (pointing right) */
-/* .left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 25px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-} */
 
-/* Add arrows to the right container (pointing left) */
-/* .right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 25px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-} */
 
-/* Fix the circle for containers on the right side */
-/* .right::after {
-  left: -12px;
-} */
-
-.content {
-  padding: 20px 30px;
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
-}
 .ui.grid>.sixteen.wide.column>.ui.centered.grid>.row>.sixteen.wide.column {
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -185,37 +136,5 @@ h2 {
 }
 /* Responsive timeline */
 @media screen and (max-width: 600px) {
-	.ui.grid>.twelve.wide.column>.ui.centered.grid>.row>.sixteen.wide.column {
-		margin-top: 25px;
-	}
 	
-/* Place the timelime to the left */
-  .timeline::after {
-    left: 28px;
-  }
-
-/* Full-width containers */
-  .container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-
-/* Make sure that all arrows are pointing leftwards */
-  /* .container::before {
-    left: 55px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  } */
-
-/* Make sure all circles are at the same spot */
-  /* .left::after, .right::after {
-    left: 15px;
-  } */
-
-/* Make all right containers behave like the left ones */
-  .right {
-    left: 0%;
-  }
 }
