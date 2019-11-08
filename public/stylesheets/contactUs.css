@@ -40,10 +40,33 @@ h4 {
 	text-align: center;
 	letter-spacing: 2px;
 }
-
+.top {
+	margin-top: 30px;
+}
+.location {
+	font-size: 18px;
+	font-weight: bold;
+}
+p {
+	letter-spacing: 2px;
+}
+span {
+	color: blue;
+}
 @media screen and (max-width: 1160px) {
 	h1 {
 		font-size: 40px;
+	}
+}
+@media screen and (max-width: 991px) {
+	/* Change footer margin-top */	
+	.ui.sixteen.column.grid {
+		margin-top: 14px;
+	}
+}
+@media screen and (max-width: 1019px) {
+	p {
+		text-align: center;
 	}
 }
 @media screen and (min-width: 768px) {
