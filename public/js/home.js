@@ -19,13 +19,3 @@ const navSlider = () => {
 	});
 }
 navSlider();
-
-// const menuViewer = () => {
-// 	const menuOne = $(".menuOneImg");
-	
-// 	menuOne.click(function() {
-// 		$('.ui.basic.modal').modal('show');
-// 	});
-// }
-
-// menuViewer();

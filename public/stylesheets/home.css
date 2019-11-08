@@ -58,20 +58,6 @@ html, body {
 	text-align: center;
 }
 
-/* 
-#content-title {
-	color: #8E7629;
-	color: darkgray;
-	margin-bottom: 10px;
-	font-size: 30px;
-	font-weight: 400;
-	text-align: center;
-}
-#tan-ln {
-	border: 1.5px solid #8E7629;
-	width: 50vw;
-} */
-
 /* "CREATE" VIEW */
 .ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:first-of-type {
 	height: 450px;
@@ -176,15 +162,6 @@ html, body {
 	background-size: cover;
 	position: relative;
 }
-.ui.grid>.ui.stackable.three.column.centered.row:nth-of-type(2)>.column:nth-of-type(2)>.admire-image {
-	margin-top: 25px;
-	height: 400px;
-	border-radius: 15px;
-  	background-size: cover;
-  	background-position: 50% 50%;
- 	background-repeat: no-repeat;
-	background-image: url("https://images.unsplash.com/photo-1550335430-182e6165c01c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
-}
 #admire {
 	color: #083b6e;
 	margin-top: 45px;
@@ -198,6 +175,15 @@ html, body {
 	color: black;
 	font-size: 20px;
 	font-weight: 400;
+}
+.ui.grid>.ui.stackable.three.column.centered.row:nth-of-type(2)>.column:nth-of-type(2)>.admire-image {
+	margin-top: 25px;
+	height: 400px;
+	border-radius: 15px;
+  	background-size: cover;
+  	background-position: 50% 50%;
+ 	background-repeat: no-repeat;
+	background-image: url("https://images.unsplash.com/photo-1550335430-182e6165c01c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 }
 
 /* "ENJOY" VIEW */
@@ -222,7 +208,7 @@ html, body {
 	font-weight: 400;
 }
 .ui.grid>.ui.stackable.three.column.centered.row:nth-of-type(3)>.column:nth-of-type(2)>.enjoy-image {
-	margin-top: 12.5px;
+	margin-top: 25px;
 	height: 400px;
 	border-radius: 15px;
   	background-size: cover;
@@ -242,7 +228,17 @@ html, body {
 		display: flex;
 	}
 }
-
+@media screen and (max-width: 1019px) {
+	.ui.grid>.ui.stackable.three.column.centered.row:first-of-type>.column:first-of-type {
+		height: 300px;
+	}
+	.ui.grid>.ui.stackable.three.column.row:nth-of-type(2)>.column:first-of-type {
+		height: 300px;
+	}
+	.ui.grid>.ui.stackable.three.column.centered.row:nth-of-type(3)>.column:first-of-type {
+		height: 300px;
+	}
+}
 @media screen and (max-width: 795px) {
 	#jumbotron {
 		height: 90vh;
