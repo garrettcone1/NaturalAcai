@@ -22,7 +22,7 @@ router.get("/ingredients", function(req, res) {
 });
 
 // Locations Route
-router.get("/locations", function(req, res){
-	res.render("locations");
+router.get("/contactUs", function(req, res){
+	res.render("contactUs");
 });
 module.exports = router;
