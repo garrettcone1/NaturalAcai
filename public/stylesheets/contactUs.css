@@ -36,6 +36,14 @@ h2 {
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 }
+h3 {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
 h4 {
 	text-align: center;
 	letter-spacing: 2px;
@@ -53,20 +61,23 @@ p {
 span {
 	color: blue;
 }
+.hours {
+	text-align: center;
+}
 @media screen and (max-width: 1160px) {
 	h1 {
 		font-size: 40px;
+	}
+}
+@media screen and (max-width: 1019px) {
+	p {
+		text-align: center;
 	}
 }
 @media screen and (max-width: 991px) {
 	/* Change footer margin-top */	
 	.ui.sixteen.column.grid {
 		margin-top: 14px;
-	}
-}
-@media screen and (max-width: 1019px) {
-	p {
-		text-align: center;
 	}
 }
 @media screen and (min-width: 768px) {
